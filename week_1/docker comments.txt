@@ -32,3 +32,29 @@ Docker Hub:
 
 Pull an Image from DockerHub: docker pull <image_name>
 Publish an Image to DockerHub: docker push <username>/<image_name>
+
+🛠️ Essential Docker Commands
+
+docker --version                  # Check Docker version
+docker pull ubuntu                # Download an image
+docker run -it ubuntu             # Run a container interactively
+docker ps                         # List running containers
+docker ps -a                      # List all containers
+docker stop <container_id>       # Stop a running container
+docker rm <container_id>         # Remove a stopped container
+docker images                     # List all downloaded images
+docker rmi <image_id>            # Remove an image
+docker build -t myapp .           # Build an image from Dockerfile
+docker run -p 3000:3000 myapp     # Run container with port binding
+docker volume create myvol        # Create a volume
+docker run -v myvol:/data ubuntu  # Mount volume inside container
+docker-compose up                 # Start services from docker-compose.yml
+docker push <your-image>          # Push image to Docker Hub
+
+Volumes: For persistent storage.
+
+Networking: Connect containers using bridge networks.
+
+Docker Compose: Manage multi-container setups.
+
+Dockerfile: Automate image creation.

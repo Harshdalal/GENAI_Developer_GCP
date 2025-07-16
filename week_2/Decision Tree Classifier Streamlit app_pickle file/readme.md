@@ -1,6 +1,6 @@
 bash > python train_model.py
 
-bash > streamlit run dtapp.py
+bash > streamlit run dtcapp.py
 
 # project structure
 

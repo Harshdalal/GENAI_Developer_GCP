@@ -1,0 +1,7 @@
+
+langgraph==0.6.2
+langchain==0.1.16
+langchain-google-genai==1.0.2
+streamlit==1.35.0
+python-dotenv==1.0.1
+pyngrok==5.3.0

@@ -1,4 +1,4 @@
-AI Agents
+# AI Agents
 
 1.ReAct Search Agent
 
@@ -6,7 +6,7 @@ AI Agents
 
 3.Content Recommendation Agent
 
-Agentic Design Patterns
+# Agentic Design Patterns
 
 1. Reflection pattern
 
@@ -21,7 +21,7 @@ Agentic Design Patterns
 4. Multi-Agents pattern
 
 
-Agentic AI Framework Used 
+# Agentic AI Framework Used 
 
 1. Crewai
 

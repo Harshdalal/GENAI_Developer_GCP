@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-openai
+python-dotenv
+streamlit 
+pandas
+plotly
+regex
+google-generativeai

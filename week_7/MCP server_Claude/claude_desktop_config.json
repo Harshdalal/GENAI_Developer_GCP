@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "local-mcp": {
+        "command": "python",
+        "args": [
+          "YOUR_PYTON_FIlE_PATH"
+        ]
+      }
+    }
+ }

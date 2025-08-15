@@ -19,5 +19,6 @@ except Exception:
 
 # sequential Pattern
 
-![Uploading image.png…]()
+<img width="1239" height="882" alt="image" src="https://github.com/user-attachments/assets/d31c37a3-fedf-4f64-a4ed-47fb7aa3bb87" />
+
 

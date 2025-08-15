@@ -11,4 +11,4 @@ except Exception:
 ```
 # Network Patterns
 
-https://codilime.com/img/major-templates-of-multi-agent-architectures-a-network-b-supervisor-c-hierarchical-supervisors-d-custom-multi-agent-workflow.png
+<img width="1600" height="836" alt="image" src="https://github.com/user-attachments/assets/bc4d3f5e-458e-4428-bc05-27bacf57dc12" />

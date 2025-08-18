@@ -6,3 +6,5 @@
 Notes:
 
 Change the project name and bucket name with correct path
+
+GCP > cloud storage > Bucket > create Bucket > give bucket name ans check your Zone and create 

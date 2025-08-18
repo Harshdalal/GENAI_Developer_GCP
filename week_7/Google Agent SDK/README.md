@@ -11,25 +11,26 @@ uv --version      # Should be installed
 
 ### Project Setup
 ```bash
-# Clone and navigate to project
-cd Agent2Agent-Project
+# Clone and navigate to project in VS Code
+open Document Folder
+> go to Terminal then 
+Select command prompt
+    >  uv init agent2agent
+    >  cd agent2agent
 
 # Install dependencies
-uv sync
-```
+    >  uv sync
+    >  pip install a2a-sdk starlette sse-starlette
+    >  uv add a2a-sdk[http-server]
+    >  uv run . (optinal)
 
-### Start the Server
-```bash
-# Terminal 1
-uv run .
-
-# Wait for: "Uvicorn running on http://0.0.0.0:9999"
-```
 
 ### Test the Agent
 ```bash
 # Terminal 2
-uv run --active test_client.py
+> CMD
+> cd agent2agent
+> uv run --active test_client.py
 ```
 
 ### Interact and Test
@@ -65,3 +66,4 @@ Choose what to test:
 4. Run all tests
 5. Exit
 ```
+

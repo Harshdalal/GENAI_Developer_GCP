@@ -154,6 +154,10 @@ This calculator server provides:
    Multiply 7 by 8
    What's 50 minus 12?
    ```
+<img width="1819" height="834" alt="image" src="https://github.com/user-attachments/assets/17cc123f-509d-4502-932d-8af826b9aca0" />
+
+<img width="1788" height="740" alt="image" src="https://github.com/user-attachments/assets/8bff1c83-a014-4e7e-8b15-7405c878e57e" />
+
 
 ## Usage Examples
 
@@ -233,4 +237,5 @@ mcp_calculator/
 ├── docs/
 │   └── usage.txt         # Documentation resource
 └── README.md            # This file
+
 ```

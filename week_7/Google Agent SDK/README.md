@@ -66,4 +66,11 @@ Choose what to test:
 4. Run all tests
 5. Exit
 ```
+<img width="891" height="341" alt="image" src="https://github.com/user-attachments/assets/691f890e-f5b7-4f91-8c76-7d5e1ef912ca" />
+
+<img width="1101" height="967" alt="image" src="https://github.com/user-attachments/assets/2f0af792-bd18-4cea-871d-9cabce1239d2" />
+
+
+
+
 

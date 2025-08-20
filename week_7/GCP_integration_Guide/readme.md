@@ -26,4 +26,27 @@ Buckets are the basic containers that hold your data as objects. Everything that
 
 There is no limit to the number of buckets you can have in a project or location.
 
+Go to project > Cloud Storage > Bucket
+
+<img width="1908" height="483" alt="image" src="https://github.com/user-attachments/assets/158d3cda-1e38-462d-8ea8-15990e27e947" />
+
+click on create and create a new Bucket
+
+<img width="1379" height="796" alt="image" src="https://github.com/user-attachments/assets/9d3901d7-7892-49c7-a36f-3a3fad1b4d9f" />
+
+<img width="1178" height="908" alt="image" src="https://github.com/user-attachments/assets/356f181a-9dc4-4ac9-80c6-9051c15b1e0f" />
+
+<img width="940" height="910" alt="image" src="https://github.com/user-attachments/assets/3ccfc5ba-0f5e-48aa-a1aa-dfb292bce857" />
+
+click on CREATE
+
+then it will reflect below
+
+<img width="1098" height="191" alt="image" src="https://github.com/user-attachments/assets/623303b1-e05a-438a-b2ce-3579ad79a55a" />
+
+
+
+
+
+
 

@@ -44,6 +44,16 @@ ai-agents/
    - Drag and drop: `main.py`, `agents.py`, `Dockerfile`, `requirements.txt`
    - Verify with: `ls`
 
+# EXTRA
+
+IF YOU HAVE Dockerfile.txt then use below code
+```
+mv Dockerfilr.txt Dockerfile
+```
+then again check with ls
+
+if there is Dockerfile.txt then Docker image will not build.
+
 4. **Setup Project Variables**
    ```bash
    PROJECT_ID=$(gcloud config get-value project)
@@ -57,7 +67,20 @@ ai-agents/
    gcloud services enable cloudbuild.googleapis.com run.googleapis.com
    ```
 
-6. **Set Permissions (One-time Setup)**
+# important steps
+
+CONTAINER REGISTRY > CREATE REPOSITORY 
+
+NAME & REGION (us-central (lowa)
+
+CREATE
+
+COPY PATH & SAVE IT
+
+<img width="1904" height="473" alt="image" src="https://github.com/user-attachments/assets/ea98a7a9-e7dc-4d88-b4ec-b8fd806528bb" />
+
+
+7. **Set Permissions (One-time Setup)**
    ```bash
    gcloud projects add-iam-policy-binding $PROJECT_ID \
      --member="serviceAccount:${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com" \
@@ -72,7 +95,7 @@ ai-agents/
      --role="roles/cloudbuild.builds.builder"
    ```
 
-7. **Set Up Google API Key Variable**
+8. **Set Up Google API Key Variable**
    - Go to the Cloud Run section in the Google Cloud Console.
    - Select your `ai-agents` service or create a new one.
    - Click **Edit & Deploy New Revision**.
@@ -81,15 +104,32 @@ ai-agents/
      - Value: Your Gemini API key (e.g., `AIzaSyACoYACs4T7NX-97k8nTpbJRdwvGHQQ`)
    - Click **Deploy** to save the configuration.
 
-8. **Build Docker Image**
+9. **Build Docker Image**
    ```bash
-   docker build -t gcr.io/crew-ai-466914/ai-agents:latest .
+ docker build -t us-central1-docker.pkg.dev/empyrean-cubist-464712-j4/folder_name/image1:latest .
    ```
 
 9. **Push Docker Image to Container Registry**
    ```bash
-   docker push gcr.io/crew-ai-466914/ai-agents:latest
+   docker push us-central1-docker.pkg.dev/empyrean-cubist-464712-j4/folder_name/image1
    ```
+# important steps
+
+CLOUD RUN > Service > Deploy container 
+
+inside container > 
+
+PORT > 8501 (for streamlit)
+
+Authentication > Public Access
+
+Variable & Secret > Add gemini free API key
+
+then CREATE
+
+<img width="1917" height="840" alt="image" src="https://github.com/user-attachments/assets/37e593fa-7dea-4cf0-8ef1-24817944b3ee" />
+
+
 
 10. **Deploy Application**
     ```bash
@@ -106,6 +146,7 @@ ai-agents/
     ✅ Service [ai-agents] has been deployed
     🌐 URL: https://ai-agents-xxxxx-uc.a.run.app
     ```
+<img width="1844" height="788" alt="image" src="https://github.com/user-attachments/assets/c22c1472-8e5e-4078-8ad4-b8ea8f0df599" />
 
 ## 🤖 How It Works
 

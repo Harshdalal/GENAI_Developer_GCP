@@ -105,9 +105,9 @@ COPY PATH & SAVE IT
    - Click **Deploy** to save the configuration.
 
 9. **Build Docker Image**
-   ```
+``` 
  docker build -t us-central1-docker.pkg.dev/empyrean-cubist-464712-j4/folder_name/image1:latest .
-   ```
+```
 
 9. **Push Docker Image to Container Registry**
    ```bash

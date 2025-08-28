@@ -14,3 +14,7 @@ https://www.trychroma.com/
 # Weaviate Vector Database
 
 https://docs.weaviate.io/weaviate/quickstart
+
+# Flash RAG
+
+https://github.com/RUC-NLPIR/FlashRAG/tree/main

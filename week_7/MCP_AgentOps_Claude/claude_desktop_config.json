@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "calculator": {
+      "command": "python",
+      "args": "your main.py file path add",
+      "env": {
+        "AGENTOPS_API_KEY": "Your_api_key",
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

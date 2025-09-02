@@ -1,0 +1,4 @@
+2025-08-25 14:57:29,444 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=ae4ee674b267eb736f0fb980f9ec5c7a
+2025-08-25 14:57:30,134 - WARNING - record() is deprecated and will be removed in v4 in the future. Automatically tracked in v4.
+2025-08-25 14:57:32,795 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=df2f2e92a43baa13ae8120cc8b0c0c37
+14:57:30,945 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=ae4ee674b267eb736f0fb980f9ec5c7a

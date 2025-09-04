@@ -1,0 +1,37 @@
+Compliance Inspector Agent – Policy Rules (v1.0)
+===============================================================
+
+Listing‑level requirements
+-------------------------
+1. Title must contain at least one primary keyword describing the product (category noun) and ≤ 150 characters.
+2. Titles must NOT contain ALL‑CAPS phrases, emoji, HTML tags, or promotional terms (e.g., “FREE”, “BEST”, “SALE”).
+3. Description length must be 300–4 000 characters and include:
+   • Key features in bullet form
+   • Material / composition
+   • Care or usage instructions (if apparel, food, cosmetics, or electronics)
+4. Price must be a positive decimal value with a currency code (ISO‑4217) that matches the target market.
+
+Image requirements
+------------------
+5. Hero image resolution ≥ 1 000 × 1 000 px, product centered on white or transparent background.
+6. No watermarks, logos, text overlays, or borders allowed on any image.
+7. Additional lifestyle images must not include children unless age‑appropriate compliance certificates are provided.
+
+Regulatory & category rules
+---------------------------
+8. Electronics sold in the EU must list CE conformity; toys must include CE + age‑grading.
+9. Cosmetics and food items require ingredient list and shelf‑life / expiry date in description.
+10. Apparel listings must specify size chart in centimetres or inches, not mixed units.
+11. Claims such as “organic”, “eco‑friendly”, “medical grade” require supporting certification uploaded.
+
+Legal & prohibited content
+--------------------------
+12. No counterfeit or replica items (vs. brand registry database).
+13. No hateful, sexual, violent, or illegal references in text or images.
+14. Marketplace terms of service violation triggers auto‑rejection (see section 7.2 of TOS).
+
+Scoring
+-------
+• Each rule contributes 0–10 points. Passing score ≥ 80.
+• Listings scoring 60–79 are flagged for required fixes.
+• Listings < 60 are auto‑rejected.
